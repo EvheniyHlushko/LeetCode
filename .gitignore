@@ -1,0 +1,17 @@
+# Ignore file for Visual Studio
+*.suo
+*.rsp
+*.obj
+*.pdb
+*.vspscc
+*.bak
+*.lib
+[Bb]in
+[Dd]ebug*/
+obj/
+[Rr]elease*/
+*ReSharper*
+_ReSharper*/
+.vs/
+project.lock.json
+*.user
