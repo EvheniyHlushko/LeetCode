@@ -32,18 +32,11 @@ namespace BinaryTreePreorderTraversal_144
     {
       result.Add(root.val);
 
-      if (root.left != null)
-      {
-        result = Recursive(root.left, result);
-      }
+      if (root.left != null) result = Recursive(root.left, result);
 
-      if (root.right != null)
-      {
-        return Recursive(root.right, result);
-      }
+      if (root.right != null) return Recursive(root.right, result);
 
       return result;
-
     }
 
 
@@ -56,6 +49,7 @@ namespace BinaryTreePreorderTraversal_144
       {
         var node = stack.Pop();
         yield return node.val;
+
         if (node.right != null)
           stack.Push(node.right);
         if (node.left != null)
@@ -65,17 +59,19 @@ namespace BinaryTreePreorderTraversal_144
 
     public List<int> preorderTraversal(TreeNode root)
     {
-      List<int> list = new List<int>();
+      var list = new List<int>();
       if (root == null) return list;
-      Stack<TreeNode> stack = new Stack<TreeNode>();
+
+      var stack = new Stack<TreeNode>();
       stack.Push(root);
       while (stack.Count > 0)
       {
-        TreeNode current = stack.Pop();
+        var current = stack.Pop();
         list.Add(current.val);
         if (current.right != null) stack.Push(current.right);
         if (current.left != null) stack.Push(current.left);
       }
+
       return list;
     }
   }

@@ -2,10 +2,10 @@
 
 namespace BinaryTreePreorderTraversal_144
 {
-    class Program
+  internal class Program
+  {
+    private static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
       var node = new TreeNode(4);
 
       node.left = new TreeNode(2);
@@ -22,11 +22,11 @@ namespace BinaryTreePreorderTraversal_144
 
       node.right.right.right = new TreeNode(8);
 
-          var soulution = new Solution();
+      var soulution = new Solution();
 
-          var result = soulution.preorderTraversal(node);
+      var result = soulution.preorderTraversal(node);
 
-          Console.ReadKey();
-        }
+      Console.ReadKey();
+    }
   }
 }
