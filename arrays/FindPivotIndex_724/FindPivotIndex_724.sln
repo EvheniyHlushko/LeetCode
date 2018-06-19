@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPivotIndex_724", "FindPivotIndex_724\FindPivotIndex_724.csproj", "{4AB24D08-CEBA-4A1B-9CA7-A7FDE41DF996}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AB24D08-CEBA-4A1B-9CA7-A7FDE41DF996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB24D08-CEBA-4A1B-9CA7-A7FDE41DF996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB24D08-CEBA-4A1B-9CA7-A7FDE41DF996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB24D08-CEBA-4A1B-9CA7-A7FDE41DF996}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E62CF79-EEF2-47E6-A639-B90F74922518}
+	EndGlobalSection
+EndGlobal
