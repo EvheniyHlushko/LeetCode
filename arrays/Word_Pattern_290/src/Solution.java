@@ -44,7 +44,6 @@ public class Solution {
                 i++;
             }
 
-           // i++;
             String result = builder.toString();
 
             if(!hash.containsKey(patternArray[j]) && !hash.containsValue(result)){
