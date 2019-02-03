@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        var solution = new Solution();
+        Solution solution = new Solution();
 
-        var result = solution.lengthOfLastWord(" a ");
+        int result = solution.lengthOfLastWord(" a ");
 
         System.out.print(result);
     }
